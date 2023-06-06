@@ -414,8 +414,7 @@ ul {
 
 .footer {
   box-sizing: border-box;
-  display: flex;
-  justify-content: end;
+  display: fill;
   background-color: #000000;
   text-decoration-color: #fff;
   padding: 60px 102px 60px 80px;
@@ -424,19 +423,24 @@ ul {
 }
 
 .footer__columns {
-  color: #fff;
+  margin: auto;
+  margin-top: 60px;
+  margin-right: 102px;
+  margin-bottom: 60px;
+  margin-left: 80px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer__column_content_hours {
   color: #fff;
+  margin-right: 100px;
   margin-top: 60px;
 }
 
 .footer__column_content_social {
   color: #fff;
-  margin-right: 102px;
   margin-top: 60px;
-  margin-left: 100px;
 }
 
 .footer__logo {
@@ -444,8 +448,8 @@ ul {
   width: 116px;
   height: 21px;
   margin: auto;
-  margin-left: 80px;
   margin-top: 60px;
+  margin-left: 80px;
   margin-bottom: 108px;
 }
 
