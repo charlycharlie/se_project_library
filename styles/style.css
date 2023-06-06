@@ -263,6 +263,8 @@ ul {
   margin: 0;
   text-decoration-color: #fff;
 }
+.staff__cards {
+}
 
 /* Add the CSS rule for your new class here. Make sure to place it before .card: parents should precede their children */
 .staff__page {
