@@ -471,6 +471,9 @@ ul {
   line-height: 20px;
   text-decoration: none;
 }
+.footer__column-link:hover {
+  color: #1f69c9;
+}
 
 .footer__social-icon {
   color: #fff;
