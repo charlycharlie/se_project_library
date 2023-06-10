@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Practicum Library</title>
-    <link rel="shortcut icon" href="favicon.ico" />
     <link rel="stylesheet" href="./styles/normalize.css" />
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
@@ -22,10 +21,10 @@
           <!-- Putting navigation links in a list is supposed to be the best practice of writing the semantic code since it allows screen readers to pause between each link instead of reading all the links as a sentence. -->
           <ul class="nav__links">
             <li>
-              <a class="nav__link" href="#staff-picks-page">Staff picks</a>
+              <a class="nav__link" href="#events-page">Events</a>
             </li>
             <li>
-              <a class="nav__link" href="#events-page">Events</a>
+              <a class="nav__link" href="#staff-picks-page">Staff picks</a>
             </li>
             <li>
               <a class="nav__link" href="#membership-page">Become a member</a>
@@ -53,7 +52,9 @@
           class="header__image"
         />
         <div class="header__footer">
-          <a class="header__link">About the library &darr;</a>
+          <a class="header__link" href="#about-page"
+            >About the library &darr;</a
+          >
           <p class="header__address">
             200 Success Avenue, The Town of Practicum
           </p>
@@ -61,7 +62,7 @@
       </header>
 
       <main class="content">
-        <section class="events events-page">
+        <section class="events" id="events-page">
           <!-- --------------------------------------------------------------- -->
           <!--              Don't uncomment until project stage 2              -->
           <!-- --------------------------------------------------------------- -->
@@ -105,7 +106,7 @@
               <p class="person__caption">Joan Feynman</p>
               <img
                 src="images/person_feynman.png"
-                alt="Image of Joan Feynman"
+                alt="Joan Feynman"
                 class="person__image person__image_size_l"
               />
             </div>
@@ -113,14 +114,14 @@
               <p class="person__caption">Margaret Burbidge</p>
               <img
                 src="images/person_burbidge.png"
-                alt="Image of Margaret Burbidge"
+                alt="Margaret Burbidge"
                 class="person__image person__image_size_m"
               />
             </div>
             <div class="person person_name_cannon">
               <img
                 src="images/person_cannon.png"
-                alt="Image of Annie Jump Cannon"
+                alt="Annie Jump Cannon"
                 class="person__image person__image_size_m"
               />
               <p class="person__caption">Annie Jump Cannon</p>
@@ -128,7 +129,7 @@
             <div class="person person_name_mitchell">
               <img
                 src="images/person_mitchell.png"
-                alt="Image of Maria Mitchell"
+                alt="Maria Mitchell"
                 class="person__image person__image_size_s"
               />
               <p class="person__caption">Maria Mitchell</p>
@@ -137,7 +138,7 @@
               <p class="person__caption">Jill Tarter</p>
               <img
                 src="images/person_tarter.png"
-                alt="Image of Jill Tarter"
+                alt="Jill Tarter"
                 class="person__image person__image_size_m"
               />
             </div>
@@ -145,13 +146,13 @@
           <!-- Start creating the composition here -->
         </section>
 
-        <section class="staff staff-page">
+        <section class="staff" id="staff-page">
           <!-- --------------------------------------------------------------- -->
           <!--        Don't uncomment until the final project stage            -->
           <!-- --------------------------------------------------------------- -->
           <h2 class="staff__title">Staff picks</h2>
           <p class="staff__subtitle">That our readers love</p>
-          <ul class="staff__page staff__cards">
+          <ul class="staff__cards">
             <li class="card">
               <div class="card__content">
                 <h3 class="card__title">Introduction to Algorithms</h3>
@@ -222,7 +223,7 @@
           </ul>
         </section>
 
-        <section class="membership membership-page">
+        <section class="membership" id="membership-page">
           <!-- --------------------------------------------------------------- -->
           <!--         Don't uncomment until the final project stage           -->
           <!-- --------------------------------------------------------------- -->
@@ -281,7 +282,7 @@
           </ul>
         </section>
 
-        <section class="about about-page">
+        <section class="about" id="about-page">
           <!-- --------------------------------------------------------------- -->
           <!--          Don't uncomment until the final project stage          -->
           <!-- --------------------------------------------------------------- -->
@@ -308,7 +309,7 @@
           <div class="about__circle"></div>
         </section>
       </main>
-      <footer class="footer contacts-page">
+      <footer class="footer" id="contacts-page">
         <div class="footer__columns">
           <div class="footer__column">
             <img
@@ -351,7 +352,7 @@
           <!--          Don't uncomment until the final project stage            -->
           <!-- ----------------------------------------------------------------- -->
         </div>
-        <div class="footer__copyright">Copyright 2023 Charley Tran</div>
+        <p class="footer__copyright">Copyright 2023 Charley Tran</p>
       </footer>
     </div>
   </body>
