@@ -47,18 +47,20 @@
 }
 
 .header__title {
-  display: flex;
-  flex-wrap: wrap;
   font-size: 66px;
   line-height: 76px;
   font-weight: 500;
   max-width: 544px;
+  margin-top: 44.22px;
+  margin-bottom: 44.22px;
 }
 
 .header__description {
   font-size: 20px;
   line-height: 30px;
   max-width: 532px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .header__image {
@@ -98,10 +100,6 @@
   justify-content: space-between;
   box-sizing: border-box;
   background-color: #f2f2f2;
-}
-
-.events:hover {
-  color: #1f69c9;
 }
 
 .events__content {
@@ -248,7 +246,7 @@
   font-size: 44px;
   line-height: 52px;
   margin: 0 0 24px;
-  text-decoration-color: #fff;
+  color: #fff;
 }
 
 .staff__subtitle {
@@ -257,7 +255,7 @@
   line-height: 30px;
   font-weight: 400;
   margin: 0;
-  text-decoration-color: #fff;
+  color: #fff;
 }
 .staff__cards {
 }
@@ -440,7 +438,6 @@
 }
 
 .footer__logo {
-  color: #fff;
   width: 116px;
   height: 21px;
   margin: auto;
