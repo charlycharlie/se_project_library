@@ -257,19 +257,21 @@
   margin: 0;
   color: #fff;
 }
-.staff__cards {
-}
 
-/* Add the CSS rule for your new class here. Make sure to place it before .card: parents should precede their children */
-.staff__page {
+.staff__cards {
   max-width: 760px;
-  margin-top: 68px;
-  margin: auto;
+  margin: 68px auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   row-gap: 40px;
   column-gap: 40px;
+  padding: 0px;
+}
+
+/* Add the CSS rule for your new class here. Make sure to place it before .card: parents should precede their children */
+.staff__page {
+  justify-content: center;
 }
 
 .card {
@@ -330,18 +332,13 @@
   margin: 100px 0 0;
   display: flex;
   flex-direction: row;
-  margin: auto;
   justify-content: center;
+  gap: 40px;
   /* Add styles */
 }
 
 .step {
   /* Add styles */
-  max-width: 220px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  gap: 40px;
   flex-basis: 220px;
 }
 
@@ -370,17 +367,17 @@
   position: relative;
   box-sizing: border-box;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   align-items: center;
 }
 
 .about__title {
-  margin-right: 120px;
+  margin: 0px 120px 0px 0px;
   font-size: 20px;
   line-height: 30px;
   font-weight: 500;
   z-index: 1;
-  max-width: 154px;
+  width: 154px;
   align-self: stretch;
 }
 
@@ -389,10 +386,14 @@
   line-height: 30px;
   font-weight: 400;
   max-width: 660px;
-  margin-right: 120px;
   display: flex;
   flex-direction: column;
   z-index: 1;
+}
+
+.about__paragraph {
+  justify-content: space-between;
+  gap: 32px;
 }
 
 .about__circle {
@@ -408,42 +409,33 @@
 
 .footer {
   box-sizing: border-box;
-
-  background-color: #000000;
-  text-decoration-color: #fff;
   padding: 60px 102px 60px 80px;
+  background-color: #1f1f1f;
+  text-decoration-color: #fff;
   font-size: 16px;
   line-height: 20px;
 }
 
 .footer__columns {
   margin: auto;
-  margin-top: 60px;
-  margin-right: 102px;
-  margin-bottom: 60px;
-  margin-left: 80px;
   display: flex;
   justify-content: space-between;
 }
 
 .footer__column_content_hours {
   color: #fff;
-  margin-right: 100px;
-  margin-top: 60px;
+  margin: 0px 0px auto auto;
 }
 
 .footer__column_content_social {
   color: #fff;
-  margin-top: 60px;
+  margin: 0px 0px auto 100px;
 }
 
 .footer__logo {
   width: 116px;
   height: 21px;
   margin: auto;
-  margin-top: 60px;
-  margin-left: 80px;
-  margin-bottom: 108px;
 }
 
 .footer__list {
