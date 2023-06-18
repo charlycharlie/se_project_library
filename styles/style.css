@@ -451,7 +451,7 @@
 
 .footer__column-heading {
   color: #fff;
-  margin-bottom: 20px;
+  margin-bottom: 0px 0px 20px 0px;
 }
 
 .footer__column-link {
@@ -472,7 +472,5 @@
 
 .footer__copyright {
   color: #fff;
-  margin-bottom: 60px;
-  margin-left: 80px;
-  margin-top: 108px;
+  margin: 108px auto 60px;
 }
