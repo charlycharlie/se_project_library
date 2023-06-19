@@ -449,6 +449,12 @@
   margin-bottom: 16px;
 }
 
+.footer__list-item:last-child {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
 .footer__column-heading {
   color: #fff;
   margin-bottom: 0px 0px 20px 0px;
@@ -459,6 +465,8 @@
   font-size: 16px;
   line-height: 20px;
   text-decoration: none;
+  display: flex;
+  flex-wrap: wrap;
 }
 .footer__column-link:hover {
   color: #c1c1c1;
