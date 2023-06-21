@@ -50,17 +50,15 @@
   font-size: 66px;
   line-height: 76px;
   font-weight: 500;
-  max-width: 544px;
-  margin-top: 44.22px;
-  margin-bottom: 44.22px;
+  max-width: 601px;
+  margin-top: 128px;
+  margin-bottom: 32px;
 }
 
 .header__description {
   font-size: 20px;
   line-height: 30px;
   max-width: 532px;
-  margin-top: 20px;
-  margin-bottom: 20px;
 }
 
 .header__image {
@@ -260,7 +258,7 @@
 
 .staff__cards {
   max-width: 760px;
-  margin: 68px auto;
+  margin: 68px auto auto auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -270,9 +268,6 @@
 }
 
 /* Add the CSS rule for your new class here. Make sure to place it before .card: parents should precede their children */
-.staff__page {
-  justify-content: center;
-}
 
 .card {
   background-color: #fff;
@@ -367,7 +362,6 @@
   position: relative;
   box-sizing: border-box;
   display: flex;
-  flex-direction: column;
   align-items: center;
 }
 
@@ -377,7 +371,6 @@
   line-height: 30px;
   font-weight: 500;
   z-index: 1;
-  width: 154px;
   align-self: stretch;
 }
 
@@ -388,12 +381,12 @@
   max-width: 660px;
   display: flex;
   flex-direction: column;
+  gap: 32px;
   z-index: 1;
 }
 
 .about__paragraph {
-  justify-content: space-between;
-  gap: 32px;
+  margin: 0px;
 }
 
 .about__circle {
@@ -450,9 +443,7 @@
 }
 
 .footer__list-item:last-child {
-  margin-top: 0px;
-  margin-right: 0px;
-  margin-left: 0px;
+  margin-bottom: 0px;
 }
 
 .footer__column-heading {
@@ -466,7 +457,8 @@
   line-height: 20px;
   text-decoration: none;
   display: flex;
-  flex-wrap: wrap;
+  align-items: start;
+  gap: 10px;
 }
 .footer__column-link:hover {
   color: #c1c1c1;
@@ -480,5 +472,5 @@
 
 .footer__copyright {
   color: #fff;
-  margin: 108px auto 60px;
+  margin: 108px auto auto auto;
 }
